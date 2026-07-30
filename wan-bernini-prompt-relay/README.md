@@ -19,7 +19,7 @@ Cuando abras el workflow por primera vez, las imágenes de referencia **parecen*
 
 Debes conectarlas manualmente. Una vez lo hagas, guarda el workflow y quedará corregido de forma permanente.
 
-![Conexión correcta de las imágenes de referencia](./screenshots/conectarnodos.mp4)
+<video src="./screenshots/conectarnodos.mp4" controls width="700"></video>
 
 ## 3. Mantener la relación de aspecto
 
@@ -69,9 +69,7 @@ En ese caso:
 - Puedes cambiar la duración de cada segmento arrastrando con el ratón.
 - Puedes añadir o eliminar segmentos con los botones inferiores.
 
-![Prompt Relay dentro de subgraph](./screenshots/mi video1.mp4)
-
-<video src="./videos/05-subgraph-duration.mp4" controls width="700"></video>
+<video src="./screenshots/mi video1.mp4" controls width="700"></video>
 
 ## 6. Problema con la cara y solución
 
@@ -83,15 +81,17 @@ En las primeras pruebas el video cambiaba el rostro del personaje (Eto-chan).
 
 **Resultado incorrecto:**
 
-<video src="./videos/06-resultado-incorrecto.mp4" controls width="500"></video>
+<video src="./screenshots/ComfyUI_00054_.mp4" controls width="500"></video>
 
 **Solución aplicada:**
 
 Se añadió una segunda imagen de referencia del rostro y se mejoraron los ojos con ADetailer.
 
+![Imagen original](./screenshots/face.png)
+
 **Resultado final correcto:**
 
-<video src="./videos/07-resultado-final.mp4" controls width="500"></video>
+<video src="./screenshots/ComfyUI_00055_.mp4" controls width="500"></video>
 
 ---
 
