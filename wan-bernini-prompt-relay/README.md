@@ -6,7 +6,7 @@ Workflow para generar videos más largos manteniendo control sobre cada segmento
 
 Primero descarga este workflow:
 
-**[Wan Bernini with Prompt Relay](https://civitai.red/models/2815818/wan-bernini-with-prompt-relay-for-longer-video-generation-with-reference)**
+(https://civitai.red/models/2815818/wan-bernini-with-prompt-relay-for-longer-video-generation-with-reference)
 
 Después instala los modelos y los custom nodes necesarios.  
 Si el ComfyUI Manager no los instala correctamente, usa `git clone` en la carpeta `custom_nodes`.
@@ -57,7 +57,7 @@ En el campo **type** elige:
 - `r2v` → reference to video  
 - `i2v` → image to video
 
-![Nodo Prompt Relay configurado](./screenshots/nodorelay.png)
+(./screenshots/nodorelay.png)
 
 ## 5. Si el nodo se ve diferente
 
@@ -77,7 +77,7 @@ En las primeras pruebas el video cambiaba el rostro del personaje (Eto-chan).
 
 **Imagen de referencia original:**
 
-![Imagen original](./screenshots/00018-410576318.png)
+(./screenshots/00018-410576318.png)
 
 **Resultado incorrecto:**
 
@@ -87,7 +87,7 @@ En las primeras pruebas el video cambiaba el rostro del personaje (Eto-chan).
 
 Se añadió una segunda imagen de referencia del rostro y se mejoraron los ojos con ADetailer.
 
-![Imagen original](./screenshots/face.png)
+(./screenshots/face.png)
 
 **Resultado final correcto:**
 
