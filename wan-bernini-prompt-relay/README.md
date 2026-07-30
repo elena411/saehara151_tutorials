@@ -6,7 +6,7 @@ Workflow para generar videos más largos manteniendo control sobre cada segmento
 
 Primero descarga este workflow:
 
-**[Wan Bernini with Prompt Relay](enlace-al-workflow-original-si-lo-tienes)**
+**[Wan Bernini with Prompt Relay](https://civitai.red/models/2815818/wan-bernini-with-prompt-relay-for-longer-video-generation-with-reference)**
 
 Después instala los modelos y los custom nodes necesarios.  
 Si el ComfyUI Manager no los instala correctamente, usa `git clone` en la carpeta `custom_nodes`.
