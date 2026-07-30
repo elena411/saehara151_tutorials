@@ -11,7 +11,7 @@ Primero descarga este workflow:
 Después instala los modelos y los custom nodes necesarios.  
 Si el ComfyUI Manager no los instala correctamente, usa `git clone` en la carpeta `custom_nodes`.
 
-> Si no sabes cómo usar `git clone`, consulta este artículo de referencia: [Troubleshooting – Regional Prompter](enlace-si-lo-tienes)
+> Si no sabes cómo usar `git clone`, consulta este artículo de referencia: [Troubleshooting – Regional Prompter](https://civitai.red/articles/28365/troubleshooting-my-regional-prompter-workflow)
 
 ## 2. Conectar las imágenes de referencia
 
@@ -19,7 +19,7 @@ Cuando abras el workflow por primera vez, las imágenes de referencia **parecen*
 
 Debes conectarlas manualmente. Una vez lo hagas, guarda el workflow y quedará corregido de forma permanente.
 
-![Conexión correcta de las imágenes de referencia](./screenshots/01-conexiones-referencia.png)
+![Conexión correcta de las imágenes de referencia](./screenshots/conectarnodos.mp4)
 
 ## 3. Mantener la relación de aspecto
 
@@ -57,7 +57,7 @@ En el campo **type** elige:
 - `r2v` → reference to video  
 - `i2v` → image to video
 
-![Nodo Prompt Relay configurado](./screenshots/02-prompt-relay.png)
+![Nodo Prompt Relay configurado](./screenshots/nodorelay.png)
 
 ## 5. Si el nodo se ve diferente
 
@@ -69,7 +69,7 @@ En ese caso:
 - Puedes cambiar la duración de cada segmento arrastrando con el ratón.
 - Puedes añadir o eliminar segmentos con los botones inferiores.
 
-![Prompt Relay dentro de subgraph](./screenshots/03-subgraph.png)
+![Prompt Relay dentro de subgraph](./screenshots/mi video1.mp4)
 
 <video src="./videos/05-subgraph-duration.mp4" controls width="700"></video>
 
@@ -79,7 +79,7 @@ En las primeras pruebas el video cambiaba el rostro del personaje (Eto-chan).
 
 **Imagen de referencia original:**
 
-![Imagen original](./screenshots/04-referencia-original.png)
+![Imagen original](./screenshots/00018-410576318.png)
 
 **Resultado incorrecto:**
 
