@@ -6,7 +6,7 @@ Workflow para generar videos más largos manteniendo control sobre cada segmento
 
 Primero descarga este workflow:
 
-(https://civitai.red/models/2815818/wan-bernini-with-prompt-relay-for-longer-video-generation-with-reference)
+[Wan Bernini with Prompt Relay](https://civitai.red/models/2815818/wan-bernini-with-prompt-relay-for-longer-video-generation-with-reference)
 
 Después instala los modelos y los custom nodes necesarios.  
 Si el ComfyUI Manager no los instala correctamente, usa `git clone` en la carpeta `custom_nodes`.
@@ -19,7 +19,7 @@ Cuando abras el workflow por primera vez, las imágenes de referencia **parecen*
 
 Debes conectarlas manualmente. Una vez lo hagas, guarda el workflow y quedará corregido de forma permanente.
 
-<video src="./screenshots/conectarnodos.mp4" controls width="700"></video>
+<video src="../screenshots/conectarnodos.mp4" controls width="700"></video>
 
 ## 3. Mantener la relación de aspecto
 
@@ -57,7 +57,7 @@ En el campo **type** elige:
 - `r2v` → reference to video  
 - `i2v` → image to video
 
-(./screenshots/nodorelay.png)
+![Nodo Prompt Relay](../screenshots/nodorelay.png)
 
 ## 5. Si el nodo se ve diferente
 
@@ -69,7 +69,7 @@ En ese caso:
 - Puedes cambiar la duración de cada segmento arrastrando con el ratón.
 - Puedes añadir o eliminar segmentos con los botones inferiores.
 
-<video src="./screenshots/mi video1.mp4" controls width="700"></video>
+<video src="../screenshots/Mi%20video1.mp4" controls width="700"></video>
 
 ## 6. Problema con la cara y solución
 
@@ -77,21 +77,21 @@ En las primeras pruebas el video cambiaba el rostro del personaje (Eto-chan).
 
 **Imagen de referencia original:**
 
-(./screenshots/00018-410576318.png)
+![Imagen original](../screenshots/00018-410576318.png)
 
 **Resultado incorrecto:**
 
-<video src="./screenshots/ComfyUI_00054_.mp4" controls width="500"></video>
+<video src="../screenshots/ComfyUI_00054_.mp4" controls width="500"></video>
 
 **Solución aplicada:**
 
 Se añadió una segunda imagen de referencia del rostro y se mejoraron los ojos con ADetailer.
 
-(./screenshots/face.png)
+![Segunda referencia de rostro](../screenshots/face.png)
 
 **Resultado final correcto:**
 
-<video src="./screenshots/ComfyUI_00055_.mp4" controls width="500"></video>
+<video src="../screenshots/ComfyUI_00055_.mp4" controls width="500"></video>
 
 ---
 
